@@ -15,6 +15,14 @@ https://cloud.google.com/load-balancing/docs/ssl-certificates/troubleshooting?&_
 
 https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#setting_up_the_http_load_balancer
 
-# TODO
-Need to document the gcloud command for updating the code in cloud storage
+# osx path
+file:///Users/davis/progs/rtp_gcp_website/www-root/index.html
+
+
+# reference for navbar
+https://www.youtube.com/watch?v=FEmysQARWFU&t=636s
+https://codepen.io/kevinpowell/pen/GrLKNo
+
+# google fonts
+https://developers.google.com/fonts/docs/getting_started
 
