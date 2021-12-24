@@ -15,5 +15,9 @@ I wonder though if I could include this file in the other files?
             <li><a href="#">Contact</a></li>
 ```
 
+# Regarding one nav.html file and it being included in each of the pages
+
+https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file
+
 
 
