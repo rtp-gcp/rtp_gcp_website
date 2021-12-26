@@ -16,7 +16,10 @@ https://cloud.google.com/load-balancing/docs/ssl-certificates/troubleshooting?&_
 https://cloud.google.com/load-balancing/docs/https/setting-up-http-https-redirect#setting_up_the_http_load_balancer
 
 # osx path
-file:///Users/davis/progs/rtp_gcp_website/www-root/index.html
+`file:///Users/davis/progs/rtp_gcp_website/www-root/index.html`
+
+# linux path
+`file:///home/davis/progs/rtp_gcp_website/www-root/blog.html`
 
 
 # reference for navbar
