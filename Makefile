@@ -1,4 +1,4 @@
-.phony: deploy
+.phony: deploy gitupdate
 
 # https://cloud.google.com/storage/docs/gsutil/commands/rsync
 #
@@ -16,4 +16,7 @@ deploy:
 #	gsutil cp -m -r -j html,css www-root/.  gs://www.rtp-gcp.org
 #	gsutil rsync -j html, css -m -x ".*\.bak$|.*\.jpg$" www-root gs://www.rtp-gcp.org
 
+
+gitupdate:
+	git add --all; git commit -m "wip"; git push
 
