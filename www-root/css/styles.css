@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background: #222;
+    background: #000000;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background: #55d6aa;
+    background: #FFFFFF;
 }
 
 header::after {
@@ -30,7 +30,7 @@ header::after {
 }
 
 .the_body {
-    background: #F5d6FF;
+    background: #FFFFFF;
 }
 
 .logo {
