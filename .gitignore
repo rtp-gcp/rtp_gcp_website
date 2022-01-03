@@ -105,4 +105,6 @@ dist
 
 # JFD Adds
 *.swp
+*.key
+.DS_STORE
 
