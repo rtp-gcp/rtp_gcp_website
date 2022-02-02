@@ -9,7 +9,7 @@
 
 TOPTARGETS := all clean
 
-SUBDIRS := docs imgs my-assets not-mine official-assets www-root secrets
+SUBDIRS := docs imgs my-assets not-mine official-assets www-root 
 
 
 $(TOPTARGETS): $(SUBDIRS)
@@ -56,6 +56,6 @@ deploy:
 #	gsutil rsync -j html, css -m -x ".*\.bak$|.*\.jpg$" www-root gs://www.rtp-gcp.org
 
 
-gitupdate:
+gitupdate: clean
 	git add --all; git commit -m "wip"; git push
 
