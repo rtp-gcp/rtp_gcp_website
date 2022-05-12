@@ -47,8 +47,10 @@ $(SUBCLEAN): %.clean:
 # NOTE: the docs say to use $ to match end of file name, but that causes errors.
 #
 # NOTE: the other examples are commented out rookie techniques for reference only
+# TODO: still fix the invalidiate cache for CDN
 deploy:
 	gsutil -m rsync -j html,css -r -x ".*\.swp|.*\.bak"  www-root gs://www.rtp-gcp.org
+	gsutil -h "Content-Type:no-cache, max-age=0" gs://www.rtp-gcp.org
 #	gsutil cp index.html gs://www.rtp-gcp.org
 #	gsutil cp -r css  gs://www.rtp-gcp.org
 #	gsutil cp -r imgs  gs://www.rtp-gcp.org
