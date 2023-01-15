@@ -27,7 +27,8 @@ clean:
 #
 # NOTE: the other examples are commented out rookie techniques for reference only
 deploy:
-	gsutil -m rsync -j html,css -r -x ".*\.swp|.*\.bak"  . gs://www.rtp-gcp.org
+	gsutil -m rsync -j html,css -r -x ".*\.swp|.*\.bak"  . gs://rtp-gcp.org
+#	gsutil -m rsync -j html,css -r -x ".*\.swp|.*\.bak"  . gs://www.rtp-gcp.org
 #	gsutil cp index.html gs://www.rtp-gcp.org
 #	gsutil cp -r css  gs://www.rtp-gcp.org
 #	gsutil cp -r imgs  gs://www.rtp-gcp.org
