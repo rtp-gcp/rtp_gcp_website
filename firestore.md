@@ -60,7 +60,7 @@ runtime: nodejs16
 }
 
 ```
-## contents of `server.json`
+## contents of `server.js`
 
 ```
 const express = require('express');
